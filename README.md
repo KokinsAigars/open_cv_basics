@@ -4,6 +4,12 @@ init() on 2026.05.13 as part of study examples for online course on Computer Vis
 DOCKER BUILD
     docker compose up --build -d
 
+RUN
+    docker exec -it open_cv python numpy_001.py
+
+
+
+
 
 RESOURCES
     NumPy   https://numpy.org/
@@ -11,14 +17,9 @@ RESOURCES
 
 
 
-numpy
-opencv-python
+requirements.txt
+    numpy
 
-#dotenv
-#requests
-#lxml~=6.0.0
-#psycopg2-binary~=2.9.10
-#langchain
-#python-dotenv
-#rich
-#pydantic
+
+sudo snap install astral-uv
+uv pip install numpy
