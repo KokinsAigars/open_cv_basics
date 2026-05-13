@@ -8,3 +8,17 @@ DOCKER BUILD
 RESOURCES
     NumPy   https://numpy.org/
     OpenCV  https://pypi.org/project/opencv-python/
+
+
+
+numpy
+opencv-python
+
+#dotenv
+#requests
+#lxml~=6.0.0
+#psycopg2-binary~=2.9.10
+#langchain
+#python-dotenv
+#rich
+#pydantic

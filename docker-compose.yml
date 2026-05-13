@@ -1,7 +1,7 @@
 services:
   open_cv_worker:
     build: .
-    container_name: ai_worker_for_open_cv
+    container_name: open_cv
     command: sleep infinity
     volumes:
       - .:/app
@@ -12,5 +12,5 @@ services:
 
 networks:
   ai_network:
-    external: true
+#    external: true
     name: ai_network
