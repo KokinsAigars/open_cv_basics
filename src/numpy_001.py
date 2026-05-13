@@ -20,6 +20,7 @@ a = np.arange(0,10,2)
 b = np.zeros(shape=(5,5))
 # print(b)
 b = np.ones(shape=(5,2))
+b*10
 # print(b)
 
 np.random.seed(101)

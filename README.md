@@ -5,15 +5,23 @@ DOCKER BUILD
     docker compose up --build -d
 
 RUN
-    docker exec -it open_cv python src/numpy_001.py
+    docker exec -it open_cv python src/numpy_002.py
+    docker exec -it open_cv python src/opencv_001.py
     http://127.0.0.1:8888/lab
 
 RESOURCES
+
     NumPy   https://numpy.org/
+    
     OpenCV  https://pypi.org/project/opencv-python/
+
+    pillow  https://pypi.org/project/pillow/
+            https://pillow.readthedocs.io/en/stable/
 
 requirements.txt
     numpy
     matplotlib
+    pillow
+    opencv-python
 
 
