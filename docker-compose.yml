@@ -10,7 +10,20 @@ services:
     networks:
       - ai_network
 
+  jupyter:
+    build: .
+    container_name: jupyter_env
+    command: jupyter lab --ip=0.0.0.0 --port=8888 --no-browser --allow-root --NotebookApp.token='' --NotebookApp.password=''
+    ports:
+      - "8888:8888"
+    volumes:
+      - .:/app
+    env_file:
+      - .env
+    networks:
+      - ai_network
+
 networks:
   ai_network:
-#    external: true
     name: ai_network
+

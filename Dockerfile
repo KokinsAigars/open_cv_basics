@@ -9,6 +9,9 @@ WORKDIR /app
 # Upgrade pip FIRST, before dealing with requirements
 RUN pip install --no-cache-dir --upgrade pip~=25.1.1
 
+# Install JupyterLab directly in the Dockerfile for the development workflow
+RUN pip install --no-cache-dir jupyterlab
+
 COPY requirements.txt .
 
 # Install the rest of your packages globally inside the container

@@ -3,6 +3,44 @@ __pycache__/
 *.py[codz]
 *$py.class
 
+# =========================
+# Jupyter Notebook & Lab
+# =========================
+.ipynb_checkpoints/
+*/.ipynb_checkpoints/
+.Trash-*/
+.trash/
+*.ipynb~
+
+# =========================
+# Python
+# =========================
+__pycache__/
+*.py[cod]
+*$py.class
+.venv/
+venv/
+env/
+
+# =========================
+# Environment Variables
+# =========================
+.env
+.env.local
+
+# =========================
+# Project Specific (OpenCV)
+# =========================
+# Ignore the generated plots so you don't accidentally commit hundreds of images
+output/
+plots/
+*.png
+*.jpg
+*.jpeg
+
+
+
+
 # C extensions
 *.so
 
@@ -75,8 +113,6 @@ docs/_build/
 .pybuilder/
 target/
 
-# Jupyter Notebook
-.ipynb_checkpoints
 
 # IPython
 profile_default/

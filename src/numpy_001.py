@@ -2,6 +2,10 @@
 import numpy as np
 print('numpy version: ', np.__version__)
 
+import matplotlib
+print("Current backend:", matplotlib.get_backend())
+
+
 # arrays!
 mylist = [1,2,3]
 # print(mylist)
