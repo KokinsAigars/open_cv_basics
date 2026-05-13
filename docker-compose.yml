@@ -1,0 +1,16 @@
+services:
+  open_cv_worker:
+    build: .
+    container_name: ai_worker_for_open_cv
+    command: sleep infinity
+    volumes:
+      - .:/app
+    env_file:
+      - .env
+    networks:
+      - ai_network
+
+networks:
+  ai_network:
+    external: true
+    name: ai_network
