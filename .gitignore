@@ -4,6 +4,14 @@ __pycache__/
 *$py.class
 
 # =========================
+# IntelliJ / PyCharm Remote Helpers
+# =========================
+*-pycharm-support-libs/
+.pycharm_helpers/
+.idea/
+.fleet/
+
+# =========================
 # Jupyter Notebook & Lab
 # =========================
 .ipynb_checkpoints/
