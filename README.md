@@ -11,16 +11,15 @@ RUN
     http://127.0.0.1:8888/lab
 
 
-
-LOCAL BUILD OUTSIDE DOCKER (so I can use display for opening images and interact with them)
+LOCAL BUILD OUTSIDE DOCKER (so I can use display for opening images && video)
     """"
-    in Linux $: python3 -m venv venv
-    in Linux $: source venv/bin/activate
-    in Linux $: pip install -r requirements.txt
+    in Linux $: python3 -m venv venv                in Window>  python -m venv venv
+    in Linux $: source venv/bin/activate            in Window>  venv\Scripts\activate
+    in Linux $: pip install -r requirements.txt     in Window>  pip install -r requirements.txt
 run
-    in Linux $: python src/openCv_004.py
+    in Linux $: python src/openCv_004.py            in Window>  python src/video/video001.py
 deactivate
-    in Linux $: deactivate
+    in Linux $: deactivate                          in Window>  deactivate
     """
 
 
@@ -30,6 +29,7 @@ RESOURCES
     NumPy   https://numpy.org/
     
     OpenCV  https://pypi.org/project/opencv-python/
+            https://docs.opencv.org/3.4/d0/de3/tutorial_py_intro.html
 
     pillow  https://pypi.org/project/pillow/
             https://pillow.readthedocs.io/en/stable/
