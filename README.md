@@ -19,7 +19,7 @@ LOCAL BUILD OUTSIDE DOCKER (so I can use display for opening images && video)
     in Linux $: source venv/bin/activate            in Window>  venv\Scripts\activate
     in Linux $: pip install -r requirements.txt     in Window>  pip install -r requirements.txt
 run
-    in Linux $: python src/openCv_004.py            in Window>  python src/video/video001.py
+    in Linux $: python src/openCv_004.py            in Window>  python src/video/video_audio_001.py
 deactivate
     in Linux $: deactivate                          in Window>  deactivate
     """

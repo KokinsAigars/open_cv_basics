@@ -5,5 +5,5 @@ opencv-python
 requests
 pyaudio
 mysqlclient
-
+pyaudio
 
