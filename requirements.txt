@@ -2,3 +2,8 @@ numpy
 matplotlib
 pillow
 opencv-python
+requests
+pyaudio
+mysqlclient
+
+

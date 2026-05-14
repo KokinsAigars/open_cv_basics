@@ -1,6 +1,8 @@
 
 init() on 2026.05.13 as part of study examples for online course on Computer Vision with OpenCV
 
+
+
 DOCKER BUILD
     docker compose up --build -d
 
@@ -23,21 +25,10 @@ deactivate
     """
 
 
-
-RESOURCES
-
-    NumPy   https://numpy.org/
-    
-    OpenCV  https://pypi.org/project/opencv-python/
-            https://docs.opencv.org/3.4/d0/de3/tutorial_py_intro.html
-
-    pillow  https://pypi.org/project/pillow/
-            https://pillow.readthedocs.io/en/stable/
-
 requirements.txt
-    numpy
+    numpy           https://numpy.org/
     matplotlib
-    pillow
-    opencv-python
-
+    pillow          https://pypi.org/project/pillow/    https://pillow.readthedocs.io/en/stable/
+    opencv-python   https://pypi.org/project/opencv-python/  https://docs.opencv.org/3.4/d0/de3/tutorial_py_intro.html
+    requests        https://pypi.org/project/requests/
 
