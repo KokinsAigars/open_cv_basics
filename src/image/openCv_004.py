@@ -3,12 +3,7 @@ import matplotlib.pyplot as plt
 import cv2
 
 # Function
-def draw_circle(event,
-                x,
-                y,
-                flags,
-                param
-                ):
+def draw_circle(event,x,y,flags,param):
 
     if event == cv2.EVENT_LBUTTONDOWN:
         cv2.circle(img,(x,y),15,(0,255,0),-1)
@@ -19,7 +14,6 @@ def draw_circle(event,
 cv2.namedWindow(winname='my_drawing')
 
 cv2.setMouseCallback('my_drawing', draw_circle)
-
 
 
 # showing image

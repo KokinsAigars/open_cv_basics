@@ -20,7 +20,7 @@ height =int(cap.get(cv2.CAP_PROP_FRAME_HEIGHT))
 
 # WINDOWS -- *'DIVX'
 # LINUX -- *'XVID'
-writer = cv2.VideoWriter('myvideo001.mp4',cv2.VideoWriter_fourcc(*'DIVX'),20,(width,height))
+writer = cv2.VideoWriter('output/myvideo001.mp4',cv2.VideoWriter_fourcc(*'DIVX'),20,(width,height))
 
 while(cap.isOpened()):
 

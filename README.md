@@ -18,6 +18,7 @@ LOCAL BUILD OUTSIDE DOCKER (so I can use display for opening images && video)
     in Linux $: python3 -m venv venv                in Window>  python -m venv venv
     in Linux $: source venv/bin/activate            in Window>  venv\Scripts\activate
     in Linux $: pip install -r requirements.txt     in Window>  pip install -r requirements.txt
+    in Linux $: cp /usr/share/fonts/truetype/dejavu/*.ttf ~/IdeaProjects/open_cv_basics/venv/lib/python3.12/site-packages/cv2/qt/fonts
 run
     in Linux $: python src/openCv_004.py            in Window>  python src/video/video_audio_001.py
 deactivate
@@ -32,3 +33,5 @@ requirements.txt
     opencv-python   https://pypi.org/project/opencv-python/  https://docs.opencv.org/3.4/d0/de3/tutorial_py_intro.html
     requests        https://pypi.org/project/requests/
 
+
+python src/image_processing/ip001.py

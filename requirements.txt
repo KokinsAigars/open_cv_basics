@@ -3,7 +3,7 @@ matplotlib
 pillow
 opencv-python
 requests
-pyaudio
-mysqlclient
-pyaudio
+pydantic
+#pyaudio
+#mysqlclient
 

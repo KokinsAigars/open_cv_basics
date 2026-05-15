@@ -16,19 +16,14 @@
     # Base64 Encoding: We convert that masked image into a text string.
     # The API Call: We send that string to LM Studio's local server (usually running on port 1234) just like we would to OpenAI.
 
-
 # Motion happens.
     #
     # The if statement triggers.
-    #
     # Python spins up a background thread using threading.Thread().
-    #
     # The background thread takes the image and goes to talk to LM Studio.
-    #
     # Crucially: The main while cap.isOpened(): loop immediately continues to the next frame. The video window never freezes!
-    #
     # You will see the red text "AI THINKING..." on your live video feed until the background thread finishes, at which point the text updates to whatever Gemma 4 saw.
-    #
+
 
 import cv2
 import base64

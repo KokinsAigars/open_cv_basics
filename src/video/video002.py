@@ -23,7 +23,7 @@ width = int(cap.get(cv2.CAP_PROP_FRAME_WIDTH))
 height = int(cap.get(cv2.CAP_PROP_FRAME_HEIGHT))
 
 # WINDOWS -- *'DIVX' | LINUX -- *'XVID'
-writer = cv2.VideoWriter('myvideo001.mp4', cv2.VideoWriter_fourcc(*'DIVX'), 20, (width, height))
+writer = cv2.VideoWriter('output/myvideo001.mp4', cv2.VideoWriter_fourcc(*'DIVX'), 20, (width, height))
 
 # 1. Read the very first frame to establish our starting baseline
 ret, prev_frame = cap.read()
@@ -88,7 +88,7 @@ while cap.isOpened():
     cv2.imshow('Frame', frame)
 
     # Optional: Show the black & white difference mask to help you calibrate the MOTION_THRESHOLD
-    # cv2.imshow('Motion Mask', thresh)
+    cv2.imshow('Motion Mask', thresh)
 
     # 7. VERY IMPORTANT: Update the previous frame so we can compare it to the next one
     prev_gray = gray
