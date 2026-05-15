@@ -35,3 +35,8 @@ requirements.txt
 
 
 python src/image_processing/ip001.py
+
+image kernels
+    https://setosa.io/ev/image-kernels/
+
+

@@ -6,11 +6,14 @@
 import cv2
 import matplotlib.pyplot as plt
 
-img = cv2.imread('output/00-puppy.jpg')
-if img is None:
+img1 = cv2.imread('output/00-puppy.jpg')
+img2 = cv2.imread('output/watermark_no_copy.png')
+
+if img1 is None or img2 is None:
     raise FileNotFoundError("Image not found!")
 
-img_rgb = img
+
+img_rgb = img1
 # img_rgb = cv2.cvtColor(img, cv2.COLOR_RGB2GRAY)
 # img_rgb = cv2.cvtColor(img, cv2.COLOR_RGB2HSV)
 # img_rgb = cv2.cvtColor(img, cv2.COLOR_RGB2HLS)
