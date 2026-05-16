@@ -1,5 +1,6 @@
 
-init() on 2026.05.13 as part of study examples for online course on Computer Vision with OpenCV
+
+As part of study examples for online course on Computer Vision with OpenCV
 
 
 
@@ -40,3 +41,5 @@ image kernels
     https://setosa.io/ev/image-kernels/
 
 
+
+int() 2026.05.13.
